@@ -1,0 +1,50 @@
+.contact-container {
+  background-color: #FFFFFF;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.contact-container .box {
+  position: relative;
+  left: 18rem;
+  width: 20%;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+.contact-container .box i {
+  position: relative;
+  right: 5rem;
+  top: 40px;
+  font-size: 40px;
+  margin-bottom: 10px;
+  transition: ease-out 0.3s;
+  cursor: pointer;
+}
+.contact-container .box i:hover {
+  color: #FFFFFF;
+}
+.contact-container .box h4 {
+  position: relative;
+  font-size: 22px;
+  font-family: "DM Sans", sans-serif;
+  color: #191919;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.contact-container .box p {
+  position: relative;
+  top: 5px;
+  left: 15px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #191919;
+  font-weight: 400;
+  text-align: center;
+}
+.contact-container .box p span {
+  display: block;
+  line-height: 1.4;
+}

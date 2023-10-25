@@ -1,0 +1,72 @@
+.message-container {
+  background-color: #F0EFE9;
+  margin: 5rem;
+  padding: 5rem;
+}
+.message-container .Text1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.message-container .Text1 h1 {
+  font-size: 45px;
+  font-family: "DM Sans", sans-serif;
+  color: #191919;
+  font-weight: 600;
+}
+.message-container .Text1 h1 span {
+  display: block;
+  line-height: 1.4;
+}
+.message-container form input {
+  margin-top: 1rem;
+  padding: 20px 80px;
+  border-radius: 55px;
+  width: 100%;
+  border: 1px solid #DAD9D3;
+  margin-right: 20px;
+  gap: 3rem;
+}
+.message-container form .input2 {
+  margin-top: 2rem;
+  padding: 20px 80px;
+  border-radius: 55px;
+  border: 1px solid #DAD9D3;
+  margin-right: 20px;
+}
+.message-container form .input3 {
+  margin-top: 2rem;
+  padding: 20px 80px;
+  border-radius: 55px;
+  height: 12rem;
+  border: 1px solid #DAD9D3;
+  margin-right: 20px;
+}
+.message-container .btn-yellow {
+  margin-top: 2rem;
+  position: relative;
+  background-color: #F9D783;
+  border: solid 1px transparent;
+  border-radius: 35px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration-line: none;
+  color: #191919;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  width: 100%;
+  transition: background-color 0.3s ease-out, color 0.3s ease-out, box-shadow 0.3s ease-out;
+  box-shadow: 0 10px 5px 0 #3b3421;
+}
+.message-container .btn-yellow i {
+  margin-left: 12px;
+  font-weight: 500;
+  font-size: 1em;
+}
+.message-container .btn-yellow:hover {
+  background-color: #191919;
+  color: #FFFFFF;
+  box-shadow: 0 0 0 0 #3b3421;
+}

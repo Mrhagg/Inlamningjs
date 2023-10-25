@@ -1,0 +1,34 @@
+.end {
+  border: 1px solid #DAD9D3;
+  background-color: #0E1021;
+  color: #FFFFFF;
+  padding-top: 10px;
+}
+.end .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.end .container p {
+  position: relative;
+  right: 9.5rem;
+  padding-top: 10px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.end .container .social-media2 {
+  position: relative;
+  left: 8rem;
+  margin-right: 20px;
+}
+.end .container .social-media2 i {
+  color: #FFFFFF;
+  background-color: #0E1021;
+  font-size: 20px;
+  margin-right: 20px;
+  transition: color 0.3s ease-in;
+}
+.end .container .social-media2 i:hover {
+  color: rgb(101, 98, 98);
+}

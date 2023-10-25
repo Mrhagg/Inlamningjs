@@ -1,11 +1,10 @@
 import React from 'react'
-import './NavSection.css'
+import './ContactHeader.css'
 
 import img_Crito from '../Assets/Images/Crito.svg'
 
-const NavSection = () => {
+const ContactHeader = () => {
   return (
-    
     <header className="nav-section">
     <div className="container">
       <img src={img_Crito} alt="" />
@@ -48,4 +47,4 @@ const NavSection = () => {
   )
 }
 
-export default NavSection
+export default ContactHeader

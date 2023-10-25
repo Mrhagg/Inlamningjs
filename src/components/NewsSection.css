@@ -1,0 +1,57 @@
+.newsletter {
+  position: relative;
+  background-color: #F0EFE9;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.newsletter .background-lines-right {
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+}
+.newsletter .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.newsletter .container h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 45px;
+  color: #191919;
+  font-weight: 700;
+}
+.newsletter .container form input {
+  padding: 20px 80px;
+  border-radius: 35px;
+  outline: none;
+  border: 1px solid #DAD9D3;
+  margin-right: 20px;
+}
+.newsletter .container form .btn-yellow {
+  position: relative;
+  background-color: #F9D783;
+  border: solid 1px transparent;
+  border-radius: 35px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration-line: none;
+  color: #191919;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-right: 50px;
+  padding-left: 50px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 10px 0 0 #63542e;
+}
+.newsletter .container form .btn-yellow i {
+  margin-left: 12px;
+  font-weight: 400;
+  font-size: 1em;
+}
+.newsletter .container form .btn-yellow:hover {
+  background-color: #191919;
+  color: #FFFFFF;
+  box-shadow: 0 0 0 0 #63542e;
+}

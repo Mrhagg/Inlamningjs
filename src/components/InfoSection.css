@@ -1,0 +1,55 @@
+.info {
+  position: relative;
+  background-color: #0E1021;
+  color: #FFFFFF;
+  padding-top: 10px;
+  padding-left: 100px;
+}
+.info .linebottom {
+  position: absolute;
+  bottom: 8px;
+  right: 0;
+}
+.info .crito {
+  color: #FFFFFF;
+  position: relative;
+  top: 72px;
+  margin-left: 50px;
+}
+.info .crito p {
+  position: relative;
+  top: 2.5rem;
+  text-align: start;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #aba8a8;
+}
+.info .crito p span {
+  display: block;
+  line-height: 1.8;
+}
+.info .links {
+  position: relative;
+  left: 10rem;
+  bottom: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+.info .links h4 {
+  position: relative;
+  right: 4rem;
+  padding-bottom: 20px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+}
+.info .links p {
+  position: relative;
+  right: 4rem;
+  top: 1.5rem;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #aba8a8;
+  font-weight: 400;
+}

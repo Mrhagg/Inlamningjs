@@ -15,13 +15,14 @@
 .consulting .container-texts {
   text-align: left;
   position: relative;
-  right: 8rem;
-  bottom: 7rem;
+  right: 11rem;
+  top: 6rem;
+  
   
 }
 .consulting .container-texts h6 {
   position: relative;
-  top: 20px;
+  top: 15px;
   margin-top: -150px;
   margin-bottom: 40px;
   color: #F94D1C;
@@ -38,7 +39,7 @@
 }
 .consulting .parent-box {
   position: relative;
-  right: 43rem;
+  right: 11rem;
   top: 8rem;
   background-color: #F0EFE9;
   display: flex;

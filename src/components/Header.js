@@ -10,12 +10,23 @@ import ConsultingSection from './ConsultingSection'
 import AgencySection from './AgencySection'
 import ProjectsSection from './ProjectsSection'
 import MembersSection from './MembersSection'
+import ArticleSection from './ArticleSection'
+import NewSection from './NewSection'
+import InfoSection from './InfoSection'
+import Footer from './Footer'
+import ContactHeader from './ContactHeader'
+import ConnectSection from './ConnectSection'
+import MessageSection from './MessageSection'
+import FormsSection from './FormsSection'
+import ImgMap from './ImgMap'
+import ContactInfo from './ContactInfo'
+import FooterContacts from './FooterContacts'
 
 
 const Header = () => {
   return (
   
-  <header>
+  <>
     <NavSection />
     <ShowcaseSection />
     <BoxSection />
@@ -25,7 +36,18 @@ const Header = () => {
     <AgencySection />
     <ProjectsSection />
     <MembersSection />
-  </header>
+    <ArticleSection />
+    <NewSection />
+    <InfoSection />
+    <Footer />
+    <ContactHeader />
+    <ConnectSection />
+    <MessageSection />
+    <FormsSection />
+    <ImgMap />
+    <ContactInfo />
+    <FooterContacts />
+  </>
   
   )
 }

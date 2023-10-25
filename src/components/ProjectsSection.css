@@ -8,10 +8,12 @@
 .Projects .container .title-project {
   text-align: center;
   position: relative;
-  bottom: 80rem;
-  left: 25rem;
+  bottom: 45rem;
+  left: 20rem;
 }
 .Projects .container .title-project p {
+  position: relative;
+  right: 25rem;
   color: #F94D1C;
   font-family: "Inter", sans-serif;
   font-size: 18px;
@@ -27,7 +29,7 @@
 }
 .Projects .container .project-cases {
   position: relative;
-  right: 35rem;
+  right: 5rem;
   bottom: 40rem;
   display: grid;
   grid-template-columns: 1fr 1fr;

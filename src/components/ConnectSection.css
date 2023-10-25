@@ -1,0 +1,36 @@
+.connect {
+  background-color: #F0EFE9;
+  padding: 5rem;
+  position: relative;
+}
+.connect .linetopleft {
+  position: absolute;
+  bottom: 8px;
+  left: 5px;
+}
+.connect .main-text {
+  position: relative;
+  top: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.connect .main-text p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #191919;
+  font-weight: 400;
+  position: relative;
+  bottom: 10rem;
+  left: 10rem;
+}
+.connect .main-text h1 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 50px;
+  color: #191919;
+  font-weight: 600;
+  position: relative;
+  bottom: 6.5rem;
+  right: 4rem;
+}

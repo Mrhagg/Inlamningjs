@@ -1,4 +1,5 @@
 import React from 'react'
+import './NewsSection.css'
 import './ShowcaseSection.css'
 
 import img_linetopleft from '../Assets/Images/linetopleft.svg'

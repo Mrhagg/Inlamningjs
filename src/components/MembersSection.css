@@ -2,8 +2,7 @@
   position: relative;
   bottom: 25rem;
   background-color: #F0D082;
-  padding: 70px;
-  
+  padding: 30px;
 }
 .Team-members .container {
   margin-top: 20rem;
@@ -13,12 +12,14 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  position: relative;
+  top: 15rem;
+  left: 5rem;
 }
 .Team-members .container .titel p {
   position: relative;
-  bottom: 30rem;
-  right: 1rem;
-  width: 300px;
+  bottom: 28rem;
+  right: 10rem;
   color: #F94D1C;
   font-size: 18px;
   font-family: "Inter", sans-serif;
@@ -47,6 +48,7 @@
   padding-top: 20px;
   padding-right: 30px;
   padding-left: 30px;
+  padding-bottom: 20px;
   text-align: center;
   padding-top: 20px;
   transition: background-color 0.3s ease-in, color 0.3s ease-in, box-shadow 0.3s ease-in;
@@ -54,9 +56,6 @@
 }
 .Team-members .container .titel .btn-black i {
   position: relative;
-  margin-left: 6rem;
-  left: 2rem;
-  bottom: 2rem;
   font-weight: 400;
   font-size: 1em;
 }
@@ -67,7 +66,7 @@
 }
 .Team-members .container .members {
   position: relative;
-  right: 75rem;
+  right: 5rem;
   bottom: 4rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -88,8 +87,8 @@
 }
 .Team-members .container .dot-image {
   position: relative;
-  right: 123rem;
-  top: 20rem;
+  left: 33rem;
+  bottom: 1rem;
 }
 .Team-members .container-client {
   background-color: #FFFFFF;
