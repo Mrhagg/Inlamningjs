@@ -1,0 +1,21 @@
+.parent-box {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-right: 8rem;
+  padding-left: 50px;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+.parent-box .box {
+  position: relative;
+  left: 1rem;
+  top: 1.5rem;
+  height: 90px;
+  width: 224px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

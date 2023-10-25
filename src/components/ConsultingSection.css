@@ -1,0 +1,166 @@
+.consulting {
+  position: relative;
+  background-color: #F0EFE9;
+  padding: 15rem;
+}
+.consulting .linemiddle {
+  position: absolute;
+  bottom: 1px;
+  right: 0;
+}
+.consulting .container {
+  position: relative;
+  bottom: 5rem;
+}
+.consulting .container-texts {
+  text-align: left;
+  position: relative;
+  right: 8rem;
+  bottom: 7rem;
+  
+}
+.consulting .container-texts h6 {
+  position: relative;
+  top: 20px;
+  margin-top: -150px;
+  margin-bottom: 40px;
+  color: #F94D1C;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+}
+.consulting .container-texts h3 {
+  color: #191919;
+  font-size: 45px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  width: 500px
+  
+}
+.consulting .parent-box {
+  position: relative;
+  right: 43rem;
+  top: 8rem;
+  background-color: #F0EFE9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100rem;
+}
+.consulting .parent-box h3 {
+  position: relative;
+  left: 2rem;
+  top: 2rem;
+  font-weight: 700;
+  margin-top: 50px;
+  text-align: left;
+}
+.consulting .parent-box p {
+  position: relative;
+  left:  2rem;
+  top: 2rem;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #191919;
+  font-weight: 300;
+  margin-top: 30px;
+  text-align: left;
+}
+.consulting .parent-box p span {
+  display: block;
+  line-height: 1.7;
+}
+.consulting .parent-box i {
+  position: relative;
+  left: 18rem;
+  top: 20px;
+  font-size: 40px;
+  color: #FFFFFF;
+  background-color: #191919;
+  border-radius: 100%;
+  transition: background-color 0.3s, color 0.3s ease-out;
+}
+.consulting .parent-box i:hover {
+  background-color: #FFFFFF;
+  color: #191919;
+  border-radius: 5rem;
+}
+.consulting .parent-box .box1 {
+  background-color: #FFFFFF;
+  position: relative;
+  width: 80rem;
+  height: 350px;
+  right: 60px;
+  border: 1px solid transparent;
+}
+.consulting .parent-box .box2 {
+  position: relative;
+  width: 80rem;
+  height: 350px;
+  right: 20px;
+  background-color: #F9D783;
+  border: 1px solid transparent;
+}
+.consulting .parent-box .box2 i {
+  background-color: #FFFFFF;
+  color: #191919;
+  border-radius: 50%;
+  transition: background-color 0.3s, color 0.3s ease-out;
+}
+.consulting .parent-box .box2 i:hover {
+  color: #FFFFFF;
+  background-color: #191919;
+}
+.consulting .parent-box .box3 {
+  background-color: #FFFFFF;
+  position: relative;
+  width: 80rem;
+  height: 350px;
+  left: 20px;
+  border: 1px solid transparent;
+}
+.consulting .parent-box .box4 {
+  background-color: #FFFFFF;
+  position: relative;
+  width: 80rem;
+  height: 350px;
+  left: 60px;
+  border: 1px solid transparent;
+}
+.consulting .btn-black {
+  position: relative;
+  top: 5rem;
+  left: 550px;
+  background-color: transparent;
+  border: solid black;
+  border-radius: 35px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration-line: none;
+  color: #191919;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding-right: 40px;
+  padding-left: 40px;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out, box-shadow 0.2s ease-out;
+  box-shadow: 20px 10px 2px 0 #6e6141;
+}
+.consulting .btn-black i {
+  margin-left: 12px;
+  font-weight: 500;
+  font-size: 1em;
+}
+.consulting .btn-black:hover {
+  background-color: #F9D783;
+  color: #FFFFFF;
+  border: 1px solid black;
+  box-shadow: 0 0 0 0 #6e6141;
+}
+.consulting .topborder {
+  position: relative;
+  top: 50px;
+  left: 30px;
+  border-top: 2px solid black;
+  width: 45px;
+}

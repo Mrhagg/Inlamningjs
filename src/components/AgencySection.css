@@ -1,0 +1,95 @@
+.container-agency {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-top: 4rem;
+  background-color: #ffffff;
+}
+.container-agency h6 {
+  position: relative;
+  font-size: 16px;
+  left: 21rem;
+  bottom: 5rem;
+  font-family: "Inter", sans-serif;
+  color: #F94D1C;
+  margin-top: 100px;
+}
+.container-agency .container-text4 {
+  position: relative;
+  left: 21rem;
+  bottom: 5rem;
+  margin-top: 1.5rem;
+}
+.container-agency .container-text4 h3 {
+  position: relative;
+  font-size: 45px;
+  font-weight: 700;
+  color: #191919;
+  font-family: "DM Sans", sans-serif;
+}
+.container-agency .container-text4 h3 span {
+  display: block;
+  line-height: 1.2;
+}
+.container-agency .grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 10px;
+  position: relative;
+  bottom: 3rem;
+  left: 20rem;
+  
+}
+.container-agency .grid-container .grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 70px;
+}
+.container-agency .grid-container .icon {
+  position: relative;
+  bottom: 1.5rem;
+  font-size: 30px;
+  color: black;
+  font-weight: 700;
+  transition: ease-out 0.5s;
+  cursor: pointer;
+}
+.container-agency .grid-container .icon:hover {
+  color: red;
+}
+.container-agency .grid-container .text {
+  padding: 15px;
+  text-align: left;
+}
+.container-agency .grid-container .text h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  color: #191919;
+  font-weight: 600;
+}
+.container-agency .grid-container .text p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #6A6C71;
+  font-weight: 500;
+}
+.container-agency .parent-box3 {
+position: relative;
+}
+
+.image-girls {
+  position: relative;
+  left: 64rem;
+  bottom: 64rem;
+}
+.container-agency .parent-box3 .box-brown {
+  position: relative;
+  height: 400px;
+  width: 955px;
+  left: 57rem;
+  bottom: 27rem;
+  background-color: #F0EFE9;
+  text-align: center;
+}

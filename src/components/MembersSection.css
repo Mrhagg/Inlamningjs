@@ -1,0 +1,179 @@
+.Team-members {
+  position: relative;
+  bottom: 25rem;
+  background-color: #F0D082;
+  padding: 70px;
+  padding-bottom: 120px;
+}
+.Team-members .container {
+  margin-top: 20rem;
+  margin-bottom: 20rem;
+}
+.Team-members .container .titel {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.Team-members .container .titel p {
+  position: relative;
+  bottom: 16rem;
+  color: #F94D1C;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+}
+.Team-members .container .titel h2 {
+  position: relative;
+  bottom: 11rem;
+  right: 8.3rem;
+  color: #191919;
+  font-size: 45px;
+  font-family: "DM Sans", sans-serif;
+}
+.Team-members .container .titel .btn-black {
+  position: relative;
+  bottom: 11rem;
+  left: 25rem;
+  background-color: #F9D783;
+  border: solid black;
+  border-radius: 35px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration-line: none;
+  color: #191919;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding-right: 40px;
+  padding-left: 40px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 10px 10px 5px 5px #ba9947;
+}
+.Team-members .container .titel .btn-black i {
+  margin-left: 12px;
+  font-weight: 400;
+  font-size: 1em;
+}
+.Team-members .container .titel .btn-black:hover {
+  background-color: #FFFFFF;
+  color: #b0861c;
+  box-shadow: 0 0 0 0 #b0861c;
+}
+.Team-members .container .members {
+  position: relative;
+  right: 40rem;
+  bottom: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+.Team-members .container .members article h3 {
+  font-size: 22px;
+  color: #191919;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.Team-members .container .members article p {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #191919;
+  font-weight: 300;
+}
+.Team-members .container .dot-image {
+  position: relative;
+  left: 39rem;
+}
+.Team-members .container-client {
+  background-color: #FFFFFF;
+  padding: 15rem;
+}
+.Team-members .container-client .titel-box {
+  text-align: center;
+  position: relative;
+  bottom: 10rem;
+}
+.Team-members .container-client .titel-box p {
+  color: #F94D1C;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+.Team-members .container-client .titel-box h3 {
+  color: #191919;
+  font-size: 45px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+}
+.Team-members .container-client .clients {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 14rem;
+}
+.Team-members .container-client .clients article {
+  position: relative;
+  bottom: 3rem;
+}
+.Team-members .container-client .clients article .image1 {
+  position: relative;
+  bottom: 2rem;
+}
+.Team-members .container-client .clients article .image2 {
+  position: relative;
+  top: 1rem;
+  right: 3rem;
+}
+.Team-members .container-client .clients article p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #191919;
+}
+.Team-members .container-client .clients article h3 {
+  position: relative;
+  bottom: 2rem;
+  left: 3rem;
+  font-size: 22px;
+  color: #191919;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+}
+.Team-members .container-client .clients article h6 {
+  position: relative;
+  left: 3rem;
+  bottom: 2rem;
+  color: #F94D1C;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+.Team-members .container-client .btn-black {
+  position: relative;
+  bottom: -6rem;
+  left: 32rem;
+  background-color: black;
+  border: solid black;
+  border-radius: 35px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration-line: none;
+  color: #FFFFFF;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding-right: 70px;
+  padding-left: 70px;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in, box-shadow 0.3s ease-in;
+  box-shadow: -10px 10px 5px 5px #8f8888;
+}
+.Team-members .container-client .btn-black i {
+  margin-left: 12px;
+  font-weight: 400;
+  font-size: 1em;
+}
+.Team-members .container-client .btn-black:hover {
+  background-color: #FFFFFF;
+  color: #191919;
+  box-shadow: 0 0 0 0 #8f8888;
+}

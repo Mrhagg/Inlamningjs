@@ -1,0 +1,83 @@
+.Showcase {
+  position: relative;
+  background-color: #F0EFE9;
+}
+.Showcase .linetopleft {
+  position: absolute;
+  bottom: 8px;
+}
+.Showcase .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Showcase .container .content-text h1 {
+  font-size: 80px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+}
+.Showcase .container .content-text p {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  margin-bottom: 90px;
+}
+.Showcase .container .content-text .btn-yellow {
+  position: relative;
+  background-color: #F9D783;
+  border: solid #F9D783;
+  border-radius: 35px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration-line: none;
+  color: #191919;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.2s ease-in-out;
+  box-shadow: 0 10px 1px 0 #786d53;
+}
+.Showcase .container .content-text .btn-yellow i {
+  margin-left: 8px;
+  font-weight: 400;
+  font-size: 1em;
+}
+.Showcase .container .content-text .btn-yellow:hover {
+  background: color #191919;
+  color: #FFFFFF;
+  box-shadow: 0 0 0 0 #F9D783;
+}
+.Showcase .container .content-text .btn-transparent {
+  position: relative;
+  background-color: transparent;
+  border: solid black;
+  border-radius: 35px;
+  width: 100px;
+  height: 50px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration-line: none;
+  color: #191919;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.2s ease-in-out;
+  box-shadow: 0 10px 2px 2px rgba(82, 80, 76, 0.6705882353);
+}
+.Showcase .container .content-text .btn-transparent i {
+  margin-left: 8px;
+  font-weight: 400;
+  font-size: 1em;
+}
+.Showcase .container .content-text .btn-transparent:hover {
+  background: color #191919;
+  color: #F9D783;
+  border: 1px solid black;
+  box-shadow: 0 0 0 0 rgba(151, 148, 139, 0.6705882353);
+}
