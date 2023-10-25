@@ -18,8 +18,8 @@ const MembersSection = () => {
       <div className="titel">
         <p>Meet Our Team</p>
         <h2>Experience Team Members</h2>
-        <a className="btn-black"href="browse.html">Browse Teams<i className="fa-solid fa-arrow-up-right"></i></a>
-    </div>
+          <a className="btn-black"href="browse.html">Browse Teams<i className="fa-solid fa-arrow-up-right"></i></a>
+      </div>
       <div className="members">
         <article>
           <img src={img_Kristine} alt="" />
