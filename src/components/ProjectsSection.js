@@ -5,6 +5,7 @@ import img_News from '../Assets/Images/News.svg'
 import img_Note from '../Assets/Images/note.svg'
 import img_Blockpen from '../Assets/Images/blockpen.svg'
 import img_Computer from '../Assets/Images/Comput.svg'
+import Button from './Extras/Button'
 
 
 const ProjectsSection = () => {
@@ -37,7 +38,7 @@ const ProjectsSection = () => {
             <a href="#">Read More <i className="fa-thin fa-arrow-up-right"></i></a>
           </article>
           <div>
-          <a className="btn-black"href="All Recent Projects.html">All Recent Projects<i className="fa-solid fa-arrow-up-right"></i></a>
+          <Button className="btn-black" title="All recent projects" />
           </div>
           </div>
         </div>

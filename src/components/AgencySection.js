@@ -2,18 +2,13 @@ import React from 'react'
 import './AgencySection.css'
 
 import img_Twogirls from '../Assets/Images/girls.svg'
+import SectionTitle from './Extras/SectionTitle'
 
 const AgencySection = () => {
   return (
 <section className="container-agency">
-    <h6>Why Choose Us</h6>
-    <div className="container-text4">
-      <h3>
-        <span>Why We Are The</span>
-        <span>Best Business</span>
-        <span>Consulting Agency</span>
-      </h3>
-    </div>
+<SectionTitle className="text6" title="Why Choose Us"/>
+<SectionTitle className="container-text4" description="Why We Are The Best Business Consulting Agency" />
 <div className="grid-container">
   <div className="grid-item">
     <div className="icon">

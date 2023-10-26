@@ -33,7 +33,7 @@
   font-size: 45px;
   font-family: "DM Sans", sans-serif;
 }
-.Team-members .container .titel .btn-black {
+.Team-members .container .titel .btn-black-2 {
   position: relative;
   bottom: 26rem;
   left: 14rem;
@@ -44,6 +44,7 @@
   font-weight: 500;
   text-decoration-line: none;
   color: #191919;
+  background-color: #F0D082;
   margin-right: 20px;
   padding-top: 20px;
   padding-right: 30px;

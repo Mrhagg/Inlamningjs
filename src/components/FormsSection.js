@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './FormsSection.css'
+import Button from './Extras/Button'
 
 const FormsSection = () => {
   return (
@@ -21,7 +22,7 @@ const FormsSection = () => {
       <form>
         <input class="input3" type="text" placeholder="Your Message*"/>
       </form>
-      <button class="btn-yellow">Send message<i class="fa-solid fa-arrow-up-right"></i></button>
+      <Button className="btn-yellow" title="Send Message" />
 </section>
   )
 }

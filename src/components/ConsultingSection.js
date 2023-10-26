@@ -1,16 +1,15 @@
 import React from 'react'
 import './ConsultingSection.css'
 import img_Linemiddle from '../Assets/Images/linemiddleri.svg'
+import Button from './Extras/Button'
+import SectionTitle from './Extras/SectionTitle'
 
 const ConsultingSection = () => {
   return (
      <section className="consulting">
       <img className="linemiddle" src={img_Linemiddle} alt="" />
       <div className="container">
-        <div className="container-texts">
-          <h6>Our Services</h6>
-          <h3>We Provide The Best Services For Consulting</h3>
-        </div>
+       <SectionTitle className="container-texts" title="Why Choose Us" description="We Provide The Best Service for Consulting" />
         <div className="parent-box">
           <div className="box1">
             <div className="topborder"></div>
@@ -54,7 +53,7 @@ const ConsultingSection = () => {
           </div>
         </div>
       </div>
-      <a className="btn-black"href="Learn more.html">Browse Services<i className="fa-solid fa-arrow-up-right"></i></a>
+      <Button className="btn-black" title="Browse Services" />
       
     </section>
   )

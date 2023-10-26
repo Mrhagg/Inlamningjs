@@ -2,6 +2,7 @@ import React from 'react'
 import './NavSection.css'
 
 import img_Crito from '../Assets/Images/Crito.svg'
+import Button from './Extras/Button'
 
 const NavSection = () => {
   return (
@@ -40,8 +41,7 @@ const NavSection = () => {
         <a href="news.html">News</a>
         <a href="contacts.html">Contact</a>
       </nav>
-      <button>Login<i className="fa-solid fa-arrow-up-right"></i>
-      </button>
+      <Button className="btn-yellow" title="Login" />
     </div>
     <div />
   </header>

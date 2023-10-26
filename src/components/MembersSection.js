@@ -10,6 +10,7 @@ import img_Star from '../Assets/Images/Star.svg'
 import img_Cass from '../Assets/Images/Cass.svg'
 import img_Amanda from '../Assets/Images/Amanda.svg'
 import img_Jack from '../Assets/Images/Jack.svg'
+import Button from './Extras/Button'
 
 const MembersSection = () => {
   return (
@@ -18,7 +19,7 @@ const MembersSection = () => {
       <div className="titel">
         <p>Meet Our Team</p>
         <h2>Experience Team Members</h2>
-          <a className="btn-black"href="browse.html">Browse Teams<i className="fa-solid fa-arrow-up-right"></i></a>
+          <Button className="btn-black-2" title="Browse team" />
       </div>
       <div className="members">
         <article>
@@ -73,7 +74,7 @@ const MembersSection = () => {
             <h6>Key Account Manager, Gobona</h6>
           </article>
         </div>
-        <a className="btn-black"href="All Reviews.html">All Reviews<i className="fa-solid fa-arrow-up-right"></i></a>
+        <Button className="btn-black" title="All reviews" />
       </section>
   </section>
   )

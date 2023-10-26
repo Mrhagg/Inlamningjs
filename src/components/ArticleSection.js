@@ -5,6 +5,7 @@ import img_Smiley from '../Assets/Images/smileyg.svg'
 import img_Tabs from '../Assets/Images/tabs.svg'
 import img_Book from '../Assets/Images/books.svg'
 import img_Dot from '../Assets/Images/dottedline.svg'
+import Button from './Extras/Button'
 
 const ArticleSection = () => {
   return (
@@ -12,7 +13,7 @@ const ArticleSection = () => {
   <div className="title-news">
     <p>Article & News</p>
     <h3>Get Every Single Articles & News</h3>
-    <a className="btn-black"href="All Recent Projects.html">Browse Articles<i className="fa-solid fa-arrow-up-right"></i></a>
+    <Button className="btn-black" title="Browse Articles" />
   </div>
   <div className="parent-yellowbox">
     <div className="yellow-box1">

@@ -2,6 +2,7 @@ import React from 'react'
 import './CompanySection.css'
 
 import img_Samantha from '../Assets/Images/Samantha.svg'
+import Button from './Extras/Button'
 
 const CompanySection = () => {
   return (
@@ -25,12 +26,13 @@ const CompanySection = () => {
           </p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis esse quasi incidunt adipisci accusantium libero provident voluptate amet.</p>
           <div>
-            <a className="btn-black"href="Learn more.html">Learn More<i className="fa-solid fa-arrow-up-right"></i></a>
-            <a className="btn-play"href="Intro video.html"><i className="fa-sharp fa-regular fa-circle-play"></i>Intro video</a>
+            <Button className="btn-black" title="Learn More" />
+            <a class="btn-play"href="Intro video.html"><i class="fa-sharp fa-regular fa-circle-play"></i>Intro video</a>
           </div>
         </aside>
         </div>
     </div>
+    
   )
 }
 

@@ -1,9 +1,11 @@
 import React from 'react'
 import './NewsSection.css'
 import './ShowcaseSection.css'
+import Button from './Extras/Button'
 
 import img_linetopleft from '../Assets/Images/linetopleft.svg'
 import img_Showcase from '../Assets/Images/Showcase-type.svg'
+
 
 const ShowcaseSection = () => {
   return (
@@ -16,8 +18,8 @@ const ShowcaseSection = () => {
             Solutions</h1>
             <p>Establish your vision and value proposition and turn them into testable prototypes.
             </p>
-            <a className="btn-yellow"href="consulting.html">Get consulting<i className="fa-solid fa-arrow-up-right"></i></a>
-            <a className="btn-transparent"href="services.html">Learn More<i className="fa-solid fa-arrow-up-right"></i></a>
+            <Button className="btn-yellow" title="Get consulting" />
+            <Button className="btn-transparent"title="Learn More" />
         </div>
         <img Src={img_Showcase} alt="" />
     </div>

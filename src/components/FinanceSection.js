@@ -1,18 +1,15 @@
 import React from 'react'
 import './FinanceSection.css'
+import Button from './Extras/Button'
+import SectionTitle from './Extras/SectionTitle'
 
 const FinanceSection = () => {
   return (
     <section className="container-finance">
   <div className="container-text">
-    <div className="content-2">
-      <p>Features</p>
-      <h2>
-        <span>Our Accounting is</span>
-        <span>Trusted by Thousands</span>
-        <span>Of companies</span>
-      </h2>
-      <a className="btn-yellow-3"href="Get consulting.html">Learn More<i className="fa-solid fa-arrow-up-right"></i></a>
+    <div className="content">
+      <SectionTitle className="content-2"  text="Features" description="Our Accounting is trusted by thousands of companies" />
+      <Button className="btn-yellow-3" title="Learn More" />
     </div>
   </div>  
   <div className="container-grid">
