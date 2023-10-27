@@ -6,6 +6,7 @@ import img_Note from '../Assets/Images/note.svg'
 import img_Blockpen from '../Assets/Images/blockpen.svg'
 import img_Computer from '../Assets/Images/Comput.svg'
 import Button from './Extras/Button'
+import SectionTitle from './Extras/SectionTitle'
 
 
 const ProjectsSection = () => {
@@ -13,8 +14,7 @@ const ProjectsSection = () => {
 <section className="Projects">
   <div className="container">
     <div className="title-project">
-      <p>Project & Case Studies</p>
-      <h2>Let's Looks Our Global Projects</h2>
+      <SectionTitle text="Project & Case Studies" description="Let's Looks Our Global Projects" />
     </div>
     <div className="project-cases">
           <article>

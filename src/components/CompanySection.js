@@ -3,6 +3,7 @@ import './CompanySection.css'
 
 import img_Samantha from '../Assets/Images/Samantha.svg'
 import Button from './Extras/Button'
+import SectionTitle from './Extras/SectionTitle'
 
 const CompanySection = () => {
   return (
@@ -20,11 +21,9 @@ const CompanySection = () => {
       <img src={img_Samantha} alt="" />
       <div className="container-right">
         <aside className="aside-right">
-          <h6>About Company</h6>
-          <h3>We Are Business Consulting & Credit Repair Experts</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam officiis quas assumenda esse obcaecati? Ex esse error voluptates iure vel totam eos.
-          </p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis esse quasi incidunt adipisci accusantium libero provident voluptate amet.</p>
+          <SectionTitle title="About Company" description="We Are Business Consulting & Credit Repair Experts" />
+          <SectionTitle text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam officiis quas assumenda esse obcaecati? Ex esse error voluptates iure vel totam eos." />
+          <SectionTitle text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis esse quasi incidunt adipisci accusantium libero provident voluptate amet." />
           <div>
             <Button className="btn-black" title="Learn More" />
             <a class="btn-play"href="Intro video.html"><i class="fa-sharp fa-regular fa-circle-play"></i>Intro video</a>

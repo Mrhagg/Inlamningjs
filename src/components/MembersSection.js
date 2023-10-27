@@ -11,45 +11,29 @@ import img_Cass from '../Assets/Images/Cass.svg'
 import img_Amanda from '../Assets/Images/Amanda.svg'
 import img_Jack from '../Assets/Images/Jack.svg'
 import Button from './Extras/Button'
+import SectionTitle from './Extras/SectionTitle'
+import Membersimg from './Extras/Membersimg'
 
 const MembersSection = () => {
   return (
       <section className="Team-members">
     <div className="container">
       <div className="titel">
-        <p>Meet Our Team</p>
-        <h2>Experience Team Members</h2>
+        <SectionTitle text="Meet Our Team" description="Experience Team Members" />
           <Button className="btn-black-2" title="Browse team" />
       </div>
       <div className="members">
-        <article>
-          <img src={img_Kristine} alt="" />
-          <h3>Kristine Palmer</h3>
-          <p>Chef Operation Officer</p>
-        </article>
-        <article>
-          <img src={img_Mark} alt="" />
-          <h3>Mark Aubri</h3>
-          <p>Senior Consultant</p>
-        </article>
-        <article>
-          <img src={img_Kimberly} alt="" />
-          <h3>Kimberly Hansen</h3>
-          <p>Senior Consultant</p>
-        </article>
-        <article>
-          <img src= {img_Justin} alt="" />
-          <h3>Justin Willoman</h3>
-          <p>Senior Tech Consultant</p>
-        </article>
+        <Membersimg className={img_Kristine} title="Kristine Palmer" text="Chef Operation Officer" />
+        <Membersimg className={img_Mark} title="Mark Aubri" text="Senior Consultant" />
+        <Membersimg className={img_Kimberly} title="Kimberly Hansen" text="Senior Consultant" />
+        <Membersimg className={img_Justin} title="Justin Willoman" text="Senior Tech Consultant" />
       </div>
       <img className="dot-image" src={img_Dotyellow} /> 
       </div>
     <div />
       <section className="container-client">
         <div className="titel-box">
-            <p>Testimonial</p>
-            <h3>What our Client Says</h3>
+            <SectionTitle text="Testimonial" description="What Our Client Says" />
         </div>
         <div className="clients">
           <article>

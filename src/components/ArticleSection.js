@@ -6,13 +6,13 @@ import img_Tabs from '../Assets/Images/tabs.svg'
 import img_Book from '../Assets/Images/books.svg'
 import img_Dot from '../Assets/Images/dottedline.svg'
 import Button from './Extras/Button'
+import SectionTitle from './Extras/SectionTitle'
 
 const ArticleSection = () => {
   return (
     <section className="Container-news">
   <div className="title-news">
-    <p>Article & News</p>
-    <h3>Get Every Single Articles & News</h3>
+    <SectionTitle text="Article & News" description="Get Every Single Articles & News" />
     <Button className="btn-black" title="Browse Articles" />
   </div>
   <div className="parent-yellowbox">

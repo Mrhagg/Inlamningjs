@@ -2,6 +2,7 @@ import React from 'react'
 import './FinanceSection.css'
 import Button from './Extras/Button'
 import SectionTitle from './Extras/SectionTitle'
+import GridInfo from './Extras/GridInfo'
 
 const FinanceSection = () => {
   return (
@@ -13,38 +14,10 @@ const FinanceSection = () => {
     </div>
   </div>  
   <div className="container-grid">
-      <div>
-        <i className="fa-sharp fa-regular fa-handshake"></i>
-        <h3>Business advice</h3>
-        <p>
-          <span>Lorem ipsum, dolor sit amet</span>
-          <span>consectetur adipisicing elit.</span>
-        </p>
-      </div>
-      <div>
-        <i className="fa-regular fa-lightbulb-on"></i>
-        <h3>Startup business</h3>
-        <p>
-          <span>Lorem ipsum, dolor sit amet</span>
-          <span>consectetur adipisicing elit.</span>
-        </p>
-      </div>
-      <div>
-        <i className="fa-regular fa-chart-mixed-up-circle-dollar"></i>
-        <h3>Financial Advice</h3>
-        <p>
-          <span>Lorem ipsum, dolor sit amet</span>
-          <span>consectetur adipisicing elit.</span>
-        </p>
-      </div>
-      <div>
-        <i className="fa-solid fa-box-dollar"></i>
-        <h3>Risk Managment</h3>
-        <p>
-          <span>Lorem ipsum, dolor sit amet</span>
-          <span>consectetur adipisicing elit.</span>
-        </p>
-      </div>
+      <GridInfo gridicon="fa-sharp fa-regular fa-handshake" title="Business Advice" text="Lorem ipsum, dolor sit amet consectetur adipisicing elit." />
+      <GridInfo gridicon="fa-regular fa-lightbulb-on" title="Startup business" text="Lorem ipsum, dolor sit amet consectetur adipisicing elit." />
+      <GridInfo gridicon="fa-regular fa-chart-mixed-up-circle-dollar" title="Financial Advice" text="Lorem ipsum, dolor sit amet consectetur adipisicing elit." />
+      <GridInfo gridicon="fa-solid fa-box-dollar" title="Risk Managment" text="Lorem ipsum, dolor sit amet consectetur adipisicing elit." />
   </div>
 </section>
   )
