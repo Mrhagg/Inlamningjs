@@ -14,9 +14,10 @@
   color: #191919;
   font-weight: 600;
 }
-.message-container .Text1 h1 span {
+.message-container .Text1 h1 {
   display: block;
   line-height: 1.4;
+  width: 500px;
 }
 .message-container form input {
   margin-top: 1rem;
@@ -38,7 +39,7 @@
   margin-top: 2rem;
   padding: 20px 80px;
   border-radius: 55px;
-  height: 12rem;
+  height: 10rem;
   border: 1px solid #DAD9D3;
   margin-right: 20px;
 }
@@ -69,4 +70,10 @@
   background-color: #191919;
   color: #FFFFFF;
   box-shadow: 0 0 0 0 #3b3421;
+}
+
+span {
+  position: relative;
+  left: 2rem;
+  top: 5px;
 }
