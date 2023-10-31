@@ -20,7 +20,7 @@ const ShowcaseSection = () => {
             <Button className="btn-yellow" title="Get consulting" />
             <Button className="btn-transparent"title="Learn More" />
           </div>
-        <img Src={img_Showcase} alt="" />
+        <img src={img_Showcase} alt="" />
       </div>
   </section>
     </>

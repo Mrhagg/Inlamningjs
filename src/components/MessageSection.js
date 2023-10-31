@@ -3,9 +3,9 @@ import './MessageSection.css'
 
 const MessageSection = () => {
   return (
-    <section class="contact-container">
-    <div class="box">
-      <div><i class="fa-solid fa-location-dot"></i>
+    <section className="contact-container">
+    <div className="box">
+      <div><i className="fa-solid fa-location-dot"></i>
         <h4>Visit us</h4>
         <p>
           <span>Sveavägen 31</span>
@@ -13,8 +13,8 @@ const MessageSection = () => {
         </p>
       </div>
     </div>
-    <div class="box">
-      <div><i class="fa-solid fa-circle-phone"></i>
+    <div className="box">
+      <div><i className="fa-solid fa-circle-phone"></i>
         <h4>Call us</h4>
         <p>
           <span>+46 (8) 121 470 50</span>
@@ -22,8 +22,8 @@ const MessageSection = () => {
         </p>
       </div>
     </div>
-      <div class="box">
-        <div><i class="fa-solid fa-circle-envelope"></i>
+      <div className="box">
+        <div><i className="fa-solid fa-circle-envelope"></i>
           <h4>Email us</h4>
           <p>
             <span>info@crito.com</span>

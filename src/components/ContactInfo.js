@@ -6,9 +6,9 @@ import img_Critowhite from '../Assets/Images/critowhite.svg'
 
 const ContactInfo = () => {
   return (
-    <section class="info">
-    <img class="linebottom" src={img_Linebottom} alt="" />
-  <div class="crito">
+    <section className="info">
+    <img className="linebottom" src={img_Linebottom} alt="" />
+  <div className="crito">
     <img src={img_Critowhite} alt="" />
     <p>
       <span>Lorem ipsum dolor sit amet consectetur</span>
@@ -18,8 +18,8 @@ const ContactInfo = () => {
       <span>praesentium.</span>
     </p>
   </div>
-  <div class="information">
-    <div class="links">
+  <div className="information">
+    <div className="links">
       <ul>
         <h4>Company</h4>
         <p>About</p>

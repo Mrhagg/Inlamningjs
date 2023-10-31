@@ -5,9 +5,9 @@ import Button from './Extras/Button'
 
 const NewSection = () => {
   return (
-          <section class="newsletter">
-        <img class="background-lines-right" src={img_Backgroundlines} alt="" />
-        <div class="container">
+          <section className="newsletter">
+        <img className="background-lines-right" src={img_Backgroundlines} alt="" />
+        <div className="container">
           <h2>Get News Updates By Signup</h2>
           <form>
               <input type="text" placeholder="Username@domain.com" />
