@@ -45,14 +45,20 @@ function FormSection() {
         });
     
           if (response.status === 200) {
-            alert('Formuläret har skickats.');
-          } else {
-            alert('Något gick fel vid skickandet av formuläret.');
-          }
-      }   catch (error) {
-          console.error('Fel vid API-anrop:', error);
-          alert('Något gick fel vid skickandet av formuläret.');
-         }
+                alert('Formuläret har skickats.');
+                console.log(response.status)
+                const api = await response.text();
+                console.log('Response from the API:', api);
+              } else {
+                alert('Något gick fel vid skickandet av formuläret.');
+                console.log(!response.status)
+                const api = await response.text();
+                console.log(' No response from API:', api);
+              }
+            }   catch (error) {
+                console.error('Fel vid API-anrop:', error);
+                alert('Något gick fel vid skickandet av formuläret.');
+              }
   }
   
   const validateForm = () => {
