@@ -1,0 +1,123 @@
+.consulting-section {
+  margin-top: 150px; /* Just a gap between the different versions of Consulting sections */
+  display: flex;
+  flex-direction: column;
+  background-color: #F0EFE9;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  padding-top: 135px;
+  padding-bottom: 120px;
+}
+
+.consulting-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1330px;
+}
+
+.consulting-container .topborder {
+  width: 45px;
+  height: 1px;
+  background-color: black;
+  margin-bottom: 35px;
+}
+.consulting-section .container-texts h6 {
+  color: #F94D1C;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 40px;
+}
+.consulting-section .container-texts h3 {
+  color: #191919;
+  font-size: 45px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  width: 500px;
+  margin-bottom: 45px;
+}
+
+.consulting-section .parent-box {
+  background-color: transparent;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.consulting-section .parent-box .link {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.consulting-section .parent-box i {
+  font-size: 40px;
+  color: #FFFFFF;
+  background-color: #191919;
+  border-radius: 50%;
+  transition: background-color 0.3s, color 0.3s ease-out;
+}
+
+.consulting-section .parent-box .white {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 310px;
+
+  @media(max-width: 1320px) {
+    width: 100%;
+  }
+}
+
+.consulting-section .parent-box .yellow {
+  background-color: #F9D783;
+  display: flex;
+  flex-direction: column;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 310px;
+
+  @media(max-width: 1320px) {
+    width: 100%;
+  }
+}
+
+.consulting-section .parent-box .yellow i {
+  background-color: #FFFFFF;
+  color: #191919;
+  border-radius: 50%;
+  transition: background-color 0.3s, color 0.3s ease-out;
+}
+
+.consulting-container .btn-black {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  align-self: center;
+  margin-top: 48px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 35px;
+  text-decoration-line: none;
+  color: #191919;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding-right: 40px;
+  padding-left: 40px;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out, box-shadow 0.2s ease-out;
+  box-shadow: 20px 10px 2px 0 #6e6141;
+}
+
+.consulting-container .btn-black:hover { 
+  background-color: #F9D783;
+  color: #FFFFFF;
+  border: 1px solid black;
+  box-shadow: 20px 10px 2px 0 transparent;
+}
