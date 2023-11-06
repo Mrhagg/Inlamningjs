@@ -1,143 +1,124 @@
-.consulting {
-  position: relative;
+.consulting-section {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
   background-color: #F0EFE9;
-  padding: 15rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  padding-top: 135px;
+  padding-bottom: 120px;
 }
-.consulting .linemiddle {
-  position: absolute;
-  bottom: 1px;
-  right: 0;
+
+.consulting-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1330px;
 }
-.consulting .container {
-  position: relative;
-  bottom: 5rem;
+
+.consulting-container .topborder {
+  width: 45px;
+  height: 1px;
+  background-color: black;
+  margin-bottom: 35px;
 }
-.consulting .container-texts {
-  text-align: left;
-  position: relative;
-  right: 11rem;
-  top: 6rem;
-  
-  
-}
-.consulting .container-texts h6 {
-  position: relative;
-  top: 15px;
-  margin-top: -150px;
-  margin-bottom: 40px;
+.consulting-section .container-texts h6 {
   color: #F94D1C;
   font-size: 18px;
   font-family: "Inter", sans-serif;
+  margin-bottom: 40px;
 }
-.consulting .container-texts h3 {
+.consulting-section .container-texts h3 {
   color: #191919;
   font-size: 45px;
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
-  width: 500px
-  
-}
-.consulting .parent-box {
-  position: relative;
-  right: 11rem;
-  top: 8rem;
-  background-color: #F0EFE9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100rem;
-}
-.consulting .parent-box h3 {
-  position: relative;
-  left: 2rem;
-  top: 2rem;
-  font-weight: 700;
-  margin-top: 50px;
-  text-align: left;
-}
-.consulting .parent-box p {
-  position: relative;
-  left:  2rem;
-  width: 210px;
-  top: 2rem;
-  font-size: 16px;
-  font-family: "Inter", sans-serif;
-  color: #191919;
-  font-weight: 300;
-  margin-top: 30px;
-  text-align: left;
+  width: 500px;
+  margin-bottom: 45px;
 }
 
-.consulting .parent-box i {
-  position: relative;
-  left: 18rem;
-  top: 20px;
+.consulting-section .parent-box {
+  background-color: transparent;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.consulting-section .parent-box .link {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.consulting-section .parent-box i {
   font-size: 40px;
   color: #FFFFFF;
   background-color: #191919;
-  border-radius: 100%;
+  border-radius: 50%;
   transition: background-color 0.3s, color 0.3s ease-out;
 }
-.consulting .parent-box i:hover {
-  background-color: #FFFFFF;
-  color: #191919;
-  border-radius: 5rem;
+
+.consulting-section .parent-box i:hover {
+background-color: #FFFFFF;
+color: #191919;
+border-radius: 20px;
 }
-.consulting .parent-box .box1 {
-  background-color: #FFFFFF;
-  position: relative;
-  width: 80rem;
-  height: 350px;
-  right: 60px;
-  border: 1px solid transparent;
+
+.consulting-section .parent-box .white {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 310px;
+
+  @media(max-width: 1320px) {
+    width: 100%;
+  }
 }
-.consulting .parent-box .box2 {
-  position: relative;
-  width: 80rem;
-  height: 350px;
-  right: 20px;
+
+.consulting-section .parent-box .yellow {
   background-color: #F9D783;
-  border: 1px solid transparent;
+  display: flex;
+  flex-direction: column;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 310px;
+
+  @media(max-width: 1320px) {
+    width: 100%;
+  }
 }
-.consulting .parent-box .box2 i {
+
+.consulting-section .parent-box .yellow i {
   background-color: #FFFFFF;
   color: #191919;
   border-radius: 50%;
   transition: background-color 0.3s, color 0.3s ease-out;
 }
-.consulting .parent-box .box2 i:hover {
-  color: #FFFFFF;
+
+.consulting-section .parent-box .yellow i:hover {
   background-color: #191919;
-}
-.consulting .parent-box .box3 {
-  background-color: #FFFFFF;
-  position: relative;
-  width: 80rem;
-  height: 350px;
-  left: 20px;
-  border: 1px solid transparent;
-}
-.consulting .parent-box .box4 {
-  background-color: #FFFFFF;
-  position: relative;
-  width: 80rem;
-  height: 350px;
-  left: 60px;
-  border: 1px solid transparent;
-}
-.consulting .btn-black {
-  position: relative;
-  top: 5rem;
-  left: 550px;
-  background-color: transparent;
-  border: solid black;
-  border-radius: 35px;
+  color: #FFFFFF;
+  border-radius: 20px;
+  }
+
+.consulting-container .btn-black {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 500;
+  align-self: center;
+  margin-top: 48px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 35px;
   text-decoration-line: none;
   color: #191919;
-  margin-right: 20px;
   padding-top: 20px;
   padding-bottom: 25px;
   padding-right: 40px;
@@ -145,21 +126,11 @@
   transition: background-color 0.2s ease-out, color 0.2s ease-out, box-shadow 0.2s ease-out;
   box-shadow: 20px 10px 2px 0 #6e6141;
 }
-.consulting .btn-black i {
-  margin-left: 12px;
-  font-weight: 500;
-  font-size: 1em;
-}
-.consulting .btn-black:hover {
+
+.consulting-container .btn-black:hover { 
   background-color: #F9D783;
   color: #FFFFFF;
   border: 1px solid black;
   box-shadow: 20px 10px 2px 0 transparent;
 }
-.consulting .topborder {
-  position: relative;
-  top: 50px;
-  left: 30px;
-  border-top: 2px solid black;
-  width: 45px;
-}
+

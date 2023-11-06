@@ -9,7 +9,6 @@ import Members from './components/Members'
 import Article from './components/Article'
 import News from './components/News'
 import Consulting from './components/Consulting'
-import Consulting2 from './components/Consulting2'
 
 const Home = () => {
   return (
@@ -19,7 +18,6 @@ const Home = () => {
         <Finance />
         <Company />
         <Consulting />
-        <Consulting2/>
         <Agency />
         <Project />
         <Members />

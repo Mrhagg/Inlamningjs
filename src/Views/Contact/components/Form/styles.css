@@ -7,6 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 .message-container .Text1 h1 {
   font-size: 45px;
@@ -17,31 +18,26 @@
 .message-container .Text1 h1 {
   display: block;
   line-height: 1.4;
-  width: 500px;
+  text-align: center;
+  width: 450px;
+  margin-bottom: 70px;
 }
-.message-container form input {
+.message-container form input, .message-container form textarea {
   margin-top: 1rem;
   padding: 20px 80px;
   border-radius: 55px;
   width: 100%;
   border: 1px solid #DAD9D3;
   margin-right: 20px;
-  gap: 3rem;
 }
-.message-container form .input2 {
-  margin-top: 2rem;
-  padding: 20px 80px;
-  border-radius: 55px;
-  border: 1px solid #DAD9D3;
-  margin-right: 20px;
+.message-container .errorMessage {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  color: red;
 }
-.message-container form .input3 {
-  margin-top: 2rem;
-  padding: 20px 80px;
-  border-radius: 55px;
-  height: 10rem;
-  border: 1px solid #DAD9D3;
-  margin-right: 20px;
+.message-container .errorMessageHidden {
+  visibility: hidden;
 }
 .message-container .btn-yellow {
   margin-top: 2rem;
