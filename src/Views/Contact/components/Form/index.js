@@ -33,15 +33,12 @@ function Form() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    validateForm ()
+    validateForm()
     if ((name && !nameError) || (email && !emailError) || (message && !messageError)) {
-        alert('Formuläret har validerats')
-     
+      alert('Formuläret har validerats')
 
-      const user = { name, email, message }
-      const json = JSON.stringify(user)
 
-      if (name.length < 2 || !email.includes('@') || message.length < 8) {
+      if (name.length < 5 || !email.includes('@') || message.length < 8) {
         return;
       }
 
@@ -76,12 +73,12 @@ function Form() {
   }
 
   const validateName = (name) => {
-    if (name.length < 2) {
+    if (name.length < 5) {
       setNameError(true)
       return
-    }
-    setNameError(false)
+    } setNameError(false)
   }
+
   const validateEmail = (email) => {
     if (!email.includes('@')) {
       setEmailError(true)
@@ -96,7 +93,7 @@ function Form() {
     } setMessageError(false)
   }
   const validateForm = () => {
-    validateName (name)
+    validateName(name)
     validateEmail(email)
     validateMessage(message)
   }
@@ -108,7 +105,7 @@ function Form() {
       </div>
       <form onSubmit={handleSubmit}>
         <div>
-          <label for="name" className={nameError ? 'errorMessage' : 'errorMessageHidden'}>Användarnamn måste innehålla minst 2 bokstäver</label>
+          <label for="name" className={nameError ? 'errorMessage' : 'errorMessageHidden'}>Användarnamn måste innehålla minst 5 tecken</label>
           <input id="name" type="text" placeholder="Name*" value={name} onChange={handleNameChange} />
         </div>
         <div>
@@ -116,13 +113,12 @@ function Form() {
           <input id="email" type="text" placeholder="Email*" value={email} onChange={handleEmailChange} />
         </div>
         <div>
-          <label for="message" className={messageError ? 'errorMessage' : 'errorMessageHidden'}>Meddelanden måste alltid innehålla minst 8 bokstäver</label>
+          <label for="message" className={messageError ? 'errorMessage' : 'errorMessageHidden'}>Meddelanden måste alltid innehålla minst 8 tecken</label>
           <textarea rows={5} id="message" type="text" placeholder="Your Message*" value={message} onChange={handleMessageChange} />
         </div>
         <Button className="btn-yellow" title="Send Message" type="submit" />
       </form>
     </section>
-
   );
 };
 export default Form;
